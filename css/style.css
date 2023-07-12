@@ -1,0 +1,66 @@
+
+
+div{
+    position: relative;
+    left: 15px;
+}
+
+h4{
+    position: relative;
+    left: 20px;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.bg-dehez{
+    background-color: rgb(0, 0, 0);
+}
+
+.nav-link{
+    color: rgb(255, 153, 0);
+}
+.nav-link:hover{
+    color: white;
+}
+
+.dropdown-item{
+    color: rgb(255, 153, 0);
+}
+
+.btn-warning{
+    background-color: rgb(250, 228, 188);
+    color: rgb(255, 153, 0);
+}
+.alerta-lanzamiento{
+background-color: rgb(253, 221, 172) ;
+color:  black
+}
+
+a{  text-decoration: none;
+    color: orange;
+}
+.list-group-item{
+    font-size: small;
+    background-color: black;
+    
+}
+.producto{
+    padding-top: 15px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+  
+.item { 
+    padding: 30px;
+}
+  
+@media screen and (max-width: 600px) {
+.grid-container {
+grid-template-columns: repeat(1, 1fr); }
+}
